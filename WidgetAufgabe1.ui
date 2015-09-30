@@ -1,7 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <author/>
- <comment/>
- <exportmacro/>
  <class>WidgetAufgabe1</class>
  <widget class="QWidget" name="WidgetAufgabe1">
   <property name="geometry">
@@ -15,7 +13,24 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="WidgetCaptionMatLabel" name="label_original" native="true">
+     <property name="text" stdset="0">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
  </widget>
- <pixmapfunction/>
+ <customwidgets>
+  <customwidget>
+   <class>WidgetCaptionMatLabel</class>
+   <extends>QWidget</extends>
+   <header>WidgetCaptionMatLabel.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
  <connections/>
 </ui>

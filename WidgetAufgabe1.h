@@ -1,7 +1,7 @@
 #ifndef WIDGETAUFGABE1_H
 #define WIDGETAUFGABE1_H
 
-#include "widgetaufgaben.h"
+#include "WidgetAufgaben.h"
 
 namespace Ui {
 class WidgetAufgabe1;
@@ -14,6 +14,8 @@ class WidgetAufgabe1 : public WidgetAufgaben
 public:
     explicit WidgetAufgabe1(QWidget *parent = 0);
     ~WidgetAufgabe1();
+
+    void updateLayout();
 
 private:
     Ui::WidgetAufgabe1 *ui;
