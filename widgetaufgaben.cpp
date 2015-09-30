@@ -47,6 +47,7 @@ void WidgetAufgaben::OpenImage(QString path){
     if(factor < 1){
         cv::resize(originalImage,originalImage,cv::Size(),factor,factor);
     }
+    updateLayout();
 }
 
 void WidgetAufgaben::drawLineOnLabel(QList<double> list, QLabel *label){
