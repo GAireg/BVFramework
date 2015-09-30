@@ -15,7 +15,7 @@ class WidgetCaptionMatLabel : public QWidget
 public:
     explicit WidgetCaptionMatLabel(QWidget *parent = 0);
     ~WidgetCaptionMatLabel();
-    void setMat(cv::Mat matrix);
+    void setMatrix(cv::Mat matrix, bool scale = false);
     void setCaption(QString text);
 
 private:

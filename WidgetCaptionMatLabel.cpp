@@ -17,6 +17,6 @@ void WidgetCaptionMatLabel::setCaption(QString text){
     ui->labelText->setText(text);
 }
 
-void WidgetCaptionMatLabel::setMat(cv::Mat matrix){
-    ui->labelImg->setMatrix(matrix);
+void WidgetCaptionMatLabel::setMatrix(cv::Mat matrix, bool scale){
+    ui->labelImg->setMatrix(matrix, scale);
 }
