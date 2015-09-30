@@ -1,6 +1,6 @@
-#include "mainwindow.h"
+#include "MainWindow.h"
 #include "ui_mainwindow.h"
-#include "dialogselectaufgabe.h"
+#include "DialogSelectAufgabe.h"
 #include "EnumAufgaben.h"
 #include <QFileDialog>
 #include "WidgetAufgabe1.h"

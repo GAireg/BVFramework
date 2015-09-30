@@ -1,4 +1,4 @@
-#include "matlabel.h"
+#include "MatLabel.h"
 #include "ui_matlabel.h"
 #include <qdebug.h>
 

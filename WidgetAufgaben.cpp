@@ -1,4 +1,4 @@
-#include "widgetaufgaben.h"
+#include "WidgetAufgaben.h"
 #include "ui_widgetaufgaben.h"
 
 #include <QPainter>

@@ -13,26 +13,26 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp \
-    dialogselectaufgabe.cpp \
-    matlabel.cpp \
-    widgetaufgaben.cpp \
-    widgetcaptionmatlabel.cpp \
+        MainWindow.cpp \
+    DialogSelectAufgabe.cpp \
+    MatLabel.cpp \
+    WidgetAufgaben.cpp \
+    WidgetCaptionMatLabel.cpp \
     WidgetAufgabe1.cpp
 
 HEADERS  += mainwindow.h \
     EnumAufgaben.h \
-    dialogselectaufgabe.h \
-    matlabel.h \
-    widgetaufgaben.h \
-    widgetcaptionmatlabel.h \
+    DialogSelectAufgabe.h \
+    MatLabel.h \
+    WidgetAufgaben.h \
+    WidgetCaptionMatLabel.h \
     WidgetAufgabe1.h
 
 FORMS    += mainwindow.ui \
-    dialogselectaufgabe.ui \
-    matlabel.ui \
-    widgetaufgaben.ui \
-    widgetcaptionmatlabel.ui \
+    DialogSelectAufgabe.ui \
+    MatLabel.ui \
+    WidgetAufgaben.ui \
+    WidgetCaptionmatLabel.ui \
     WidgetAufgabe1.ui
 
 QMAKE_CXXFLAGS += -std=c++11

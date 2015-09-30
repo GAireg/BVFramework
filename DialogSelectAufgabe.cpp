@@ -1,4 +1,4 @@
-#include "dialogselectaufgabe.h"
+#include "DialogSelectAufgabe.h"
 #include "ui_dialogselectaufgabe.h"
 #include "EnumAufgaben.h"
 

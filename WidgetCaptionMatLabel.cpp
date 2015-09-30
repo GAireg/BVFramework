@@ -1,4 +1,4 @@
-#include "widgetcaptionmatlabel.h"
+#include "WidgetCaptionMatLabel.h"
 #include "ui_widgetcaptionmatlabel.h"
 
 WidgetCaptionMatLabel::WidgetCaptionMatLabel(QWidget *parent) :
