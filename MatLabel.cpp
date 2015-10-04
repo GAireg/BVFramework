@@ -88,12 +88,22 @@ void MatLabel::setMatrix(cv::Mat &mat, bool scale){
     QImage img = convertImage();
     QPixmap pix = QPixmap::fromImage(img);
     origImage = pix;
-    this->setPixmap(pix.scaled(size(),Qt::KeepAspectRatio));
+    if(scaleImage){
+        this->setPixmap(pix.scaled(size(),Qt::KeepAspectRatio));
+    }
+    else {
+        this->setPixmap(pix);
+    }
 }
 
 void MatLabel::resizeEvent(QResizeEvent *event){
     QLabel::resizeEvent(event);
     if(!origImage.isNull()){
+        if(scaleImage){
         this->setPixmap(origImage.scaled(size(),Qt::KeepAspectRatio));
+        }
+        else{
+            this->setPixmap(origImage);
+        }
     }
 }
