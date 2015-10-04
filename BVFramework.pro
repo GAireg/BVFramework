@@ -32,7 +32,7 @@ FORMS    += mainwindow.ui \
     DialogSelectAufgabe.ui \
     MatLabel.ui \
     WidgetAufgaben.ui \
-    WidgetCaptionmatLabel.ui \
+    WidgetCaptionMatLabel.ui \
     WidgetAufgabe1.ui
 
 QMAKE_CXXFLAGS += -std=c++11
