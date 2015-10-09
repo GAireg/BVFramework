@@ -21,7 +21,7 @@
  */
 
 #include "DialogSelectAufgabe.h"
-#include "ui_dialogselectaufgabe.h"
+#include "ui_DialogSelectAufgabe.h"
 #include "EnumAufgaben.h"
 
 #include <QString>

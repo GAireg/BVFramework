@@ -21,7 +21,7 @@
  */
 
 #include "MainWindow.h"
-#include "ui_mainwindow.h"
+#include "ui_MainWindow.h"
 #include "DialogSelectAufgabe.h"
 #include "EnumAufgaben.h"
 #include <QFileDialog>

@@ -21,7 +21,7 @@
  */
 
 #include "WidgetCaptionMatLabel.h"
-#include "ui_widgetcaptionmatlabel.h"
+#include "ui_WidgetCaptionMatLabel.h"
 
 WidgetCaptionMatLabel::WidgetCaptionMatLabel(QWidget *parent) :
     QWidget(parent),

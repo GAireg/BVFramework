@@ -21,7 +21,7 @@
  */
 
 #include "WidgetAufgaben.h"
-#include "ui_widgetaufgaben.h"
+#include "ui_WidgetAufgaben.h"
 
 #include <QPainter>
 #include <QTimer>

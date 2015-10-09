@@ -21,7 +21,7 @@
  */
 
 #include "MatLabel.h"
-#include "ui_matlabel.h"
+#include "ui_MatLabel.h"
 #include <qdebug.h>
 
 

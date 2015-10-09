@@ -37,7 +37,7 @@
   <customwidget>
    <class>MatLabel</class>
    <extends>QLabel</extends>
-   <header>matlabel.h</header>
+   <header>MatLabel.h</header>
   </customwidget>
  </customwidgets>
  <resources/>
