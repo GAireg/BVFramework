@@ -76,7 +76,7 @@ void MainWindow::on_actionAufgabe_W_hlen_triggered()
 void MainWindow::on_actionBild_ffnen_triggered()
 {
     if(currentAufgabeWidget == NULL){return;}
-    QFileDialog dia(this,"Bild Öffnen","/home/gaireg/git/Studium/BV/Praktikum/bilder/","*");
+    QFileDialog dia(this,"Bild Öffnen","/path/to/images/here","*");
     if(dia.exec() != QDialog::Accepted) return;
     currentAufgabeWidget->OpenImage(dia.selectedFiles()[0]);
 }
