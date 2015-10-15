@@ -52,6 +52,8 @@ protected:
     bool grayscale = false;
 
     cv::Mat originalImage;
+    int maxWidth = 1600;
+    int maxHeight = 900;
 
 private:
     Ui::WidgetAufgaben *ui;

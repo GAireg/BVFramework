@@ -63,14 +63,14 @@ void WidgetAufgaben::OpenImage(QString path){
         originalImage= cv::imread(path.toStdString());
     }
     //scale image to fit to screen
-    if (originalImage.rows > 900)
+    if (originalImage.rows > maxHeight)
     {
-        double factor = 900. / originalImage.rows;
+        double factor = double(maxHeight) / originalImage.rows;
         cv::resize(originalImage,originalImage,cv::Size(),factor,factor);
     }
-    if(originalImage.cols > 1600)
+    if(originalImage.cols > maxWidth)
     {
-        double factor = 1600. /originalImage.cols;
+        double factor = double(maxWidth) /originalImage.cols;
         cv::resize(originalImage,originalImage,cv::Size(),factor,factor);
 
     }
